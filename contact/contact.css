@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+.logo {
+    padding: 24px 76px;
+    margin-right: 400px;
+}
+
+.link {
+    color: #343434;
+    padding: 66px 25px;
+    margin: 66px 0;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: lightslategray;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin-top: 66px;
+}
+
+.center {
+    width: 450px;
+    padding: 20px 10px 20px 40px;
+}
+
+/* .top {
+    display: flex;
+} */
+
+.messengers {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin-right: 10px;
+    /* font-size: 40px;
+    color: darkslategrey; */
+}
+
+.right, .author{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.part_first, .part_third, .part_seventh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: 1200px;
+    padding-bottom: 50px;
+}
+
+.part_second, .part_fourth, .part_fifth, .part_sixth, .part_eighth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 850px;
+    padding-bottom: 50px;
+}
+
+h1, h2 {
+    padding-bottom: 20px;
+}
+
+.telephone {
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.btn {
+    /* display: inline-block; Строчно-блочный элемент */
+    background: #343434; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 30px; /* Скругляем уголки */
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-left: 600px;
+}
+
+.btn:hover {
+    background:#898888;
+}
+
+.footer {
+    color: darkslategrey;
+    padding-bottom: 50px;
+}
